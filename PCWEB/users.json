@@ -1,0 +1,17 @@
+{
+    "users": [
+        {
+            "username": "User1",
+            "hardDriveId": "abc123xyz456",
+            "companyName": "",
+            "phoneNumber": "",
+            "whatsappNumber": "",
+            "firstRunDate": "2025-04-06",
+            "remainingFreeRuns": 5,
+            "freeRunDaysDuration": "30",
+            "activationStatus": "deactivated",
+            "activationDate": "2025-05-01",
+"EndDateactivation": "2026-05-31"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "system": {  // إعلانات النظام المحلي (البرنامج على الحاسوب)
+    "mode": "sequential",  // طريقة عرض الإعلانات: متتالية
+    "ads": [
+      "system_ad1.jpg",  // إعلان 1
+      "system_ad2.png",  // إعلان 2
+      "system_ad3.jpg"   // إعلان 3
+    ]
+  },
+  "website": {  // إعلانات الموقع الإلكتروني
+    "computer": {  // إعلانات للمستخدمين الذين يدخلون من الحاسوب
+      "mode": "specific",  // طريقة عرض الإعلانات: محددة
+      "specificAd": "web_ad_computer.jpg",  // إعلان الحاسوب
+      "ads": [
+        "web_ad_computer1.jpg",   // إعلان 1 للحاسوب
+        "web_ad_computer2.png"    // إعلان 2 للحاسوب
+      ]
+    },
+    "mobile": {  // إعلانات للمستخدمين الذين يدخلون من الهاتف المحمول
+      "mode": "specific",  // طريقة عرض الإعلانات: محددة
+      "specificAd": "web_ad_mobile.jpg",  // إعلان الهاتف
+      "ads": [
+        "web_ad_mobile1.jpg",   // إعلان 1 للهاتف
+        "web_ad_mobile2.png"    // إعلان 2 للهاتف
+      ]
+    }
+  }
+}
